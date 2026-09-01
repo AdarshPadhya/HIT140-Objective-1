@@ -14,6 +14,8 @@
 
 ---
 
+The 27-year benchmark was selected as an evidence-informed reference point, not randomly. Research on professional football suggests that players commonly reach peak performance between approximately 25 and 27 years, depending on their position. We used 27 years—the upper end of this range—to test whether the average age of 2026 World Cup squads differs from this practical football benchmark. This does not mean that 27 is an official FIFA standard.
+
 ## Data Wrangling
 
 ### Data source
@@ -126,3 +128,7 @@ Because the p-value is below 0.05, there is statistically significant evidence t
 - A sample of 36 squads was used rather than all 48 squads, so results may vary slightly with a different random sample.
 - The analysis identifies a statistical difference from the benchmark of 27 years, but it does not explain why squad ages differ.
 - Results are specific to the 2026 FIFA World Cup and should not automatically be generalised to other tournaments.
+
+## Reference 
+
+Kalén, A., Pérez-Ferreirós, A., & Lago-Peñas, C. (2019). Are soccer players older now than before? Aging trends and their impact on player performance in the European soccer leagues. Frontiers in Psychology, 10, Article 76. https://doi.org/10.3389/fpsyg.2019.00076 
