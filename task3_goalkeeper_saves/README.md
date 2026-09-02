@@ -56,12 +56,12 @@ pip install pandas numpy scipy matplotlib openpyxl
 
 **Run the notebook:**
 1. Clone this repository
-2. Ensure `GOALKEEPERSAVESPERMATCH.xlsx` is in the `data/` folder
-3. Open `GOALKEEPERSAVES_FIXED.ipynb` in Jupyter Notebook / JupyterLab / VS Code
+2. Ensure `GOALKEEPERSAVESPERMATCH.xlsx` is in your folder
+3. Open `GOALKEEPERSAVES.ipynb` in Jupyter Notebook / JupyterLab / VS Code
 4. Run all cells top to bottom
 
 ```bash
-jupyter notebook GOALKEEPERSAVES_FIXED.ipynb
+jupyter notebook GOALKEEPERSAVES.ipynb
 ```
 
 ## Data Source
