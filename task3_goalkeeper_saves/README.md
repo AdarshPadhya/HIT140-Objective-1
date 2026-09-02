@@ -30,19 +30,6 @@ recorded one or more clean sheets during the FIFA World Cup 2026.
   saves per match, not fewer, suggesting clean sheets are not primarily
   driven by save volume.
 
-## Project Structure
-
-```
-.
-├── GOALKEEPERSAVES_FIXED.ipynb        # Main analysis notebook (run this)
-├── data/
-│   ├── GOALKEEPERSAVESPERMATCH.xlsx   # Raw source data (48 teams)
-│   ├── wc2026_goalkeeping_wrangled.csv        # Cleaned dataset
-│   ├── wc2026_goalkeeping_SAMPLE.csv          # Simple random sample
-│   └── wc2026_goalkeeping_STRATIFIED_SAMPLE.csv  # Stratified sample
-├── descriptive_plots.png              # Boxplot + histogram of saves/match
-└── README.md
-```
 
 ## Skills Demonstrated
 
