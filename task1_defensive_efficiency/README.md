@@ -69,18 +69,51 @@ Each sampled match produces **one paired observation**: the winning team's Save 
 
 # Descriptive statistics:
 
-**Wining Team's defensive efficiency mean: ...**
-**Losing Team's defensive efficiency mean: ...**
+| Statistic    | Winning team | Losing team |
+| ------------ | -----------: | ----------: |
+| count        |    50.000000 |   50.000000 |
+| mean         |    73.620635 |   49.672439 |
+| std          |    33.041050 |   25.319362 |
+| min          |     0.000000 |    0.000000 |
+| 25%          |    56.666667 |   35.000000 |
+| 50% (median) |    83.333333 |   50.000000 |
+| 75%          |   100.000000 |   65.909091 |
+| max          |   100.000000 |   91.666667 |
+| sd           |    33.041050 |   25.319362 |
+
+**Summary:**
+
+- Winning team → mean: **73.62%**, sd: **33.04**, median: **83.33%**
+- Losing team → mean: **49.67%**, sd: **25.32**, median: **50.00%**
+- Mean paired difference (winner − loser): **23.95%**, sd: **39.39**
 
 ---
 
 # Inferential statistics (Confidence interval):
 
-## ...
+- n = 50, df = 49
+- Mean difference = **23.9482%**
+- SE = 5.5702
+- t_crit (95%) = 2.0096
+- **95% CI for mean difference = [12.7544%, 35.1420%]**
+
+---
 
 # Inferential statistics (either a One-Sample t-Test OR a Two-sample t-Test):
 
-## ...
+**Normality check (Shapiro-Wilk on differences):**
+
+- W = 0.9675, p = 0.1835 → _Fail to reject normality_
+
+**Paired t-test:**
+
+- t(49) = **4.2993**
+- p (one-tailed) = **0.000041**
+- Cohen's d (paired) = **0.6080**
+
+**Decision at α = 0.05:** ✅ **Reject H₀**
+
+---
 
 # Tools Used:
 
@@ -94,7 +127,3 @@ Each sampled match produces **one paired observation**: the winning team's Save 
 - **Ms PowerPoint** (Presentation)
 
 ---
-
-# Limitations:
-
-## ...
