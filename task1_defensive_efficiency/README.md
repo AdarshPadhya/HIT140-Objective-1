@@ -66,8 +66,9 @@ A stratified random sample of **50 matches** was selected from the eligible popu
 Each sampled match produces **one paired observation**: the winning team's Save % and the losing team's Save % from that same match. A paired-samples design is used because the two observations from a single match are not independent of each other, where they share contextual factors such as referee, weather, and match stakes.
  
  **Data Cleaning:**
- 
  In **4 matches**, winning team faces **0 Shots on Target**, which results **undefined efficiency**. So, I have assigned **100%** efficiency for winning teams in those 4 matches. The reason is that winning team shows really excellent defence against losing team, by not leting a single shots on target.
+
+ 
 ---
 
 # Descriptive statistics:
